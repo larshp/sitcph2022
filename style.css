@@ -1,12 +1,11 @@
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #FFF;
 }
 
 .reveal h1 {
@@ -31,6 +30,10 @@ body {
 
 .reveal pre {
   box-shadow: unset;
+}
+
+.reveal pre code {
+  max-height: unset;
 }
 
 .reveal a:hover img {
